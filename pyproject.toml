@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "macos-ci-testing"
+version = "0.1.0"
+description = "Just testing"
+authors = []
+
+[tool.poetry.dependencies]
+python = "~3.9.0"
+pyobjc-framework-SystemConfiguration = "^8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
